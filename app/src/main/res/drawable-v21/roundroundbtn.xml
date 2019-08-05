@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <stroke android:width="2dp"
+        android:color="@color/Purple"/>
+    <gradient
+        android:angle="225"
+        android:startColor="#DAE4E434"
+        android:endColor="#E8DDF5D7"/>
+    // The desired corner radius. reduce it to keep it less rounded
+    <corners android:radius="260dp" />
+
+    // Add your desired padding
+    <padding
+        android:left="10dp"
+        android:top="5dp"
+        android:right="10dp"
+        android:bottom="5dp" >
+    </padding>
+
+</shape>
